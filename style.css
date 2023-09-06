@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(154, 255, 129);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px; /* Tạo khoảng cách từ đỉnh trang */
+    font-size: 24px; /* Tăng kích thước tiêu đề cho điện thoại */
+}
+
+/* Định dạng bảng thời khóa biểu */
+table {
+    width: 100%; /* Chiếm toàn bộ chiều rộng của màn hình */
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px; /* Giảm khoảng cách trong ô */
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-size: 18px; /* Tăng kích thước tiêu đề cột */
+}
+
+/* Định dạng các môn học */
+td[class^="mon"] {
+    font-size: 14px; /* Tăng kích thước chữ cho môn học */
+    padding: 2px; /* Giảm khoảng cách trong ô */
+}
+
+.hangngang {
+    background-color: rgb(154, 155, 255);
+    height: 10px; /* Giảm chiều cao hàng ngang */
+}
+.mon1{
+    background-color: aquamarine;
+    border:none;
+}
+.mon2{
+    background-color: rgb(189, 255, 233);
+    border:none;
+
+}
+.mon3{
+    background-color: rgb(230, 255, 247);
+    border:none;
+    border-left: 1px solid #ccc;
+
+}
+.mon4{
+    background-color: rgb(196, 255, 211);
+    border:none;
+    border-left: 1px solid #ccc;
+
+}
+.mon5{
+    background-color: rgb(167, 255, 189);
+    border:none;
+    border-left: 1px solid #ccc;
+
+}
+.mon6{
+    background-color: rgb(94, 255, 134);
+    border:none;
+    border-left: 1px solid #ccc;
+
+}
+.mon7{
+    background-color: rgb(177, 168, 255);
+    border:none;
+    border-left: 1px solid #ccc;
+
+}
+.mon8{
+    background-color: rgb(132, 118, 255);
+    border:none;
+    border-left: 1px solid #ccc;
+
+}
